@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 🎮 Tic Tac Toe with AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub stars](https://img.shields.io/github/stars/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/issues)
+[![GitHub license](https://img.shields.io/github/license/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/blob/main/LICENSE)
 
-## Available Scripts
+A modern **Tic Tac Toe Game** built with **React.js**, featuring an **AI opponent powered by the Minimax algorithm**.  
+Designed with a **sci-fi, minimalistic, and modern theme**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🤖 **AI Opponent** using Minimax algorithm  
+- 🎚️ **Difficulty Levels**: Easy (random), Medium (mix), Hard (unbeatable)  
+- 📜 **Game History Tracking** (review past moves)  
+- 🔄 **Restart Game** anytime  
+- 🎨 **Custom Sci-Fi UI** with glowing effects and futuristic typography  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://react.dev/) – Frontend library  
+- **Vanilla CSS** – For sci-fi minimalistic design  
+- **Minimax Algorithm** – AI decision-making  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+tic-tac-toe-ai/
+├── src/
+│   ├── App.js        # Main game logic
+│   ├── App.css       # Sci-fi UI styles
+│   ├── Board.js      # Game board component
+│   ├── Square.js     # Each square component
+│   ├── AI.js         # Minimax algorithm & difficulty
+│   └── index.js      # React entry point
+└── public/
+    └── index.html    # Includes Orbitron sci-fi font
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone Repository
+```bash
+git clone https://github.com/<your-username>/tic-tac-toe-ai.git
+cd tic-tac-toe-ai
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Run Application
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+App will be available at 👉 [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖥️ Gameplay Preview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Player always plays as **X**  
+- AI plays as **O**  
+- Choose difficulty level from dropdown  
+- Game ends when **Winner** or **Draw** is detected  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📸 Screenshots
 
-### Analyzing the Bundle Size
+*(add your own screenshots here after running the app)*  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧠 AI Algorithm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This game uses the **Minimax algorithm** for the AI:
+- **Easy** → Random moves  
+- **Medium** → 50% chance minimax, 50% random  
+- **Hard** → Full minimax (unbeatable AI)  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Feel free to **fork this repo** and submit pull requests if you’d like to improve the game (e.g., animations, multiplayer mode, leaderboard).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please **star this repo** ⭐ on GitHub!

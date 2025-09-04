@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0a0f1e; /* deep space */
+  color: #e0e0e0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2 {
+  color: #00eaff;
+  text-shadow: 0 0 8px rgba(0, 234, 255, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  cursor: pointer;
+  border: 2px solid #00eaff;
+  background-color: transparent;
+  color: #00eaff;
+  font-size: 1rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #00eaff;
+  color: #0a0f1e;
+  box-shadow: 0 0 12px #00eaff;
+}
+
+select {
+  border: 2px solid #00eaff;
+  background-color: #0a0f1e;
+  color: #00eaff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #00eaff;
+  background-color: rgba(0, 234, 255, 0.05);
+  color: #00eaff;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.square:hover {
+  background-color: rgba(0, 234, 255, 0.15);
+  box-shadow: 0 0 10px #00eaff;
+}
+
+.status {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.history {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-left: 20px;
+}
+
+.history li {
+  margin: 4px 0;
+  font-size: 0.9rem;
 }
