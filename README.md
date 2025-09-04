@@ -1,8 +1,8 @@
 # 🎮 Tic Tac Toe with AI
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/issues)
-[![GitHub license](https://img.shields.io/github/license/your-username/tic-tac-toe-ai?style=for-the-badge)](https://github.com/your-username/tic-tac-toe-ai/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/usamahdhaqi/tic-tac-toe-ai?style=for-the-badge)](https://github.com/usamahdhaqi/tic-tac-toe-ai/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/usamahdhaqi/tic-tac-toe-ai?style=for-the-badge)](https://github.com/usamahdhaqi/tic-tac-toe-ai/issues)
+[![GitHub license](https://img.shields.io/github/license/usamahdhaqi/tic-tac-toe-ai?style=for-the-badge)](https://github.com/usamahdhaqi/tic-tac-toe-ai/blob/main/LICENSE)
 
 A modern **Tic Tac Toe Game** built with **React.js**, featuring an **AI opponent powered by the Minimax algorithm**.  
 Designed with a **sci-fi, minimalistic, and modern theme**.
@@ -48,7 +48,7 @@ tic-tac-toe-ai/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<your-username>/tic-tac-toe-ai.git
+git clone https://github.com/usamahdhaqi/tic-tac-toe-ai.git
 cd tic-tac-toe-ai
 ```
 
