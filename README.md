@@ -77,7 +77,7 @@ App will be available at 👉 [http://localhost:3000](http://localhost:3000)
 
 ## 📸 Screenshots
 
-(./public/Screenshots-tic-tac-toe-ai.PNG) 
+![Tampilan Aplikasi](./public/Screenshots-tic-tac-toe-ai.PNG) 
 
 ---
 
